@@ -9,6 +9,7 @@ view: orders {
 
   dimension_group: created {
     type: time
+    convert_tz: no
     timeframes: [
       raw,
       time,

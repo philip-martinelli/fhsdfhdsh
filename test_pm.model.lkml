@@ -75,6 +75,10 @@ explore: user_data {
   }
 }
 
-explore: users {}
+explore: users {
+  join: pdt_builder {
+    type: cross
+  }
+}
 
 explore: users_nn {}
